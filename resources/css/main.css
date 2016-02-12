@@ -1,0 +1,44 @@
+header {
+  background-image: url('../img/DeathtoStock_Creative Community9.jpg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-default, .header-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  padding: 28px 15px;
+  font-size: 26px;
+}
+
+.navbar-default {
+  /*background-color: #fff;*/
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav>li>a {
+  padding: 24px 24px;
+}
+
+.header-text {
+  padding: 238px 0px 178px 0px;
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background: #3e3e38;
+  color: #fff;
+  padding: 80px 0px;
+  margin-top: 100px;
+  font-size: .8em;
+}
