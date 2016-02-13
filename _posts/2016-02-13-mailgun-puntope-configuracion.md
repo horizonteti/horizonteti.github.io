@@ -1,8 +1,8 @@
 ---
-title: Configuración Mailgun y dominios puntope
-description: Configuración paso a paso de Mailgun y punto.pe
+title: "Configuración Mailgun y dominios puntope"
+description: "Configuración paso a paso de Mailgun y punto.pe"
 layout: post
-date: 13/02/2015
+date: 13/02/2016 18:20
 ---
 Enviar correo desde una aplicación requiere configurar un servidor de correos e incluir librerías especiales en el proyecto. Para evitar esto, nace [mailgun](http://www.mailgun.com/). Mailgun hace disponible un API a los desarrolladores para enviar y recibir correos de manera fácil y sin necesidad de tener un servidor de correos dedicado.
 
