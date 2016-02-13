@@ -1,5 +1,5 @@
 ---
-title: Configuración Mailgun y dominios punto.pe
+title: Configuración Mailgun y dominios puntope
 description: Configuración paso a paso de Mailgun y punto.pe
 layout: post
 date: 13/02/2015
