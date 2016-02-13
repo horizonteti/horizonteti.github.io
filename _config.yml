@@ -1,6 +1,6 @@
 description: Desarrollo de software a medida y de alta calidad.
 url: http://horizonteti.com.pe
-permalink: /posts/:title
+permalink: /blog/posts/:title
 markdown: redcarpet
 redcarpet:
   extensions: [with_toc_data]

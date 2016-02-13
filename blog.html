@@ -1,0 +1,14 @@
+---
+layout: base
+title: Blog | Horizonte TI
+summary: Blog de Horizonte TI.
+permalink: blog/index.html
+---
+<section class="post-index">
+  {% for post in site.blog %}
+  <article>
+    <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+    <p>{{ post.description }}</p>
+  </article>
+  {% endfor %}
+</section>
