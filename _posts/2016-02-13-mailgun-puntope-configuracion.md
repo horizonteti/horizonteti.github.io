@@ -21,9 +21,9 @@ El dominio se registra en (mailgun)[http://www.mailgun.com/] y su validación se
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YQe-Ab_Voto" frameborder="0" allowfullscreen></iframe>
 
 <div class="row">
-  <div class="col-sm-4 col-sm-offset-4">
+  <div class="col-sm-8 col-sm-offset-2">
     <div class="thumbnail">
-      ![Agregar nuevo dominio](https://doc-0g-34-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ljajs6htldcu64a4jpbt32jje57o2npl/1455400800000/11820878478336017276/*/0B5LOMizfGW_AaUxaLWNPbkRGdGc?e=view)
+      <img src="https://doc-0g-34-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ljajs6htldcu64a4jpbt32jje57o2npl/1455400800000/11820878478336017276/*/0B5LOMizfGW_AaUxaLWNPbkRGdGc?e=view" alt="Agregar nuevo dominio en mailgun" class="img-responsive" />
       <div class="caption">
         <h3>Agregar nuevo dominio en mailgun</h3>
       </div>

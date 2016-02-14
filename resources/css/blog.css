@@ -1,9 +1,9 @@
-.blog-content img {
+/*.blog-content img {
   display: block;
   max-width: 500px;
   height: auto;
   margin: 0 auto;
-}
+}*/
 .blog-header, .post-index {
   margin-top: 80px;
 }
@@ -13,8 +13,8 @@
   display: block;
 }
 
-@media (max-width: 750px) {
+/*@media (max-width: 750px) {
   .blog-content img {
     max-width: 100%;
   }
-}
+}*/
