@@ -15,8 +15,18 @@ layout: base
   </div>
 </nav>
 <div class="blog-header container">
+  <nav>
+    <ul class="pager">
+      <li class="previous"><a href="/blog"><span aria-hidden="true">&larr;</span> Ver posts</a></li>
+    </ul>
+  </nav>
   <h2>{{ page.title }}</h2>
 </div>
 <div class="container blog-content">
 {{ content }}
+  <nav>
+    <ul class="pager">
+      <li class="previous"><a href="/blog"><span aria-hidden="true">&larr;</span> Ver posts</a></li>
+    </ul>
+  </nav>
 </div>
