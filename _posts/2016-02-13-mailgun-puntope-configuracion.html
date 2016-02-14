@@ -1,0 +1,72 @@
+---
+title: "Configuración Mailgun y dominios punto.pe"
+description: "Configuración paso a paso de Mailgun y punto.pe"
+layout: post
+date: 13/02/2016 18:20
+---
+<p>Enviar correo desde una aplicación requiere configurar un servidor de correos e incluir librerías especiales en el proyecto. Para evitar esto, nace [mailgun](http://www.mailgun.com/). Mailgun hace disponible un API a los desarrolladores para enviar y recibir correos de manera fácil y sin necesidad de tener un servidor de correos dedicado.</p>
+
+<div class="row">
+  <div class="col-sm-8 col-sm-2">
+    <img src="/resources/img/blog/registro-mailgun-001.png" alt="mailgun" class="img-responsive" />
+  </div>
+</div>
+
+<h3>Creación de una cuenta</h3>
+
+<p>Para crear una nueva cuenta sólo debe registrarse en la siguiente dirección: <a href="http://www.mailgun.com/" target="_blank">Mailgun</a>.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZDK06iRIQkk" frameborder="0" allowfullscreen></iframe>
+
+<h3>Configuración del dominio en punto.pe</h3>
+
+<p>El dominio se registra en mailgun y su validación se hace mediante el registro de records en el proveedor de dominios <a href="http://punto.pe" target="_blank">punto.pe</a>.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YQe-Ab_Voto" frameborder="0" allowfullscreen></iframe>
+
+<p>Mailgun le solicitará que registre los siguientes valores en su provedor de dominio (punto.pe).</p>
+
+<div class="table-responsive">
+  <table class="table table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Nombre</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TXT</td>
+        <td>&lt;nombre_dominio&gt; (ej. mg.horizonteti.com.pe)</td>
+        <td>v=spf1 include:mailgun.org ~all</td>
+      </tr>
+      <tr>
+        <td>TXT</td>
+        <td>mx._domainkey.&lt;nombre_dominio&gt; (ej. mx._domainkey.mg.horizonteti.com.pe)</td>
+        <td>&lt;valor_generado&gt;</td>
+      </tr>
+      <tr>
+        <td>CNAME</td>
+        <td>email.&lt;nombre_dominio&gt; (ej. email.mg.horizonteti.com.pe)</td>
+        <td>mailgun.org</td>
+      </tr>
+      <tr>
+        <td>MX</td>
+        <td>-</td>
+        <td>mxa.mailgun.org</td>
+      </tr>
+      <tr>
+        <td>MX</td>
+        <td>-</td>
+        <td>mxb.mailgun.org</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    - Jorge Vilca <a href="https://twitter.com/jaxkodex">@jaxkodex</a>
+  </div>
+</div>
