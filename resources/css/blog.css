@@ -1,5 +1,14 @@
 .blog-content img {
   display: block;
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
+}
+.blog-header, .post-index {
+  margin-top: 80px;
+}
+
+@media (max-width: 750px) {
+  .blog-content img {
+    max-width: 100%;
+  }
 }
