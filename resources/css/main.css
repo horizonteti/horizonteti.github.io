@@ -10,7 +10,7 @@ header {
 }
 
 .navbar-default, .header-text {
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
 }
 
 .navbar-default .navbar-brand {
